@@ -1,0 +1,31 @@
+.header {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .header__link {
+    color: red;
+    font-size: 62px;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: opacity ease 1s;
+  }
+
+  .header__link:last-child {
+    margin-right: 0;
+  }
+  .header__link:hover {
+    transition: opacity ease 1s;
+    opacity: 0.6;
+  }
+}
+.footer {
+  background-color: rgb(122, 31, 31);
+  display: flex;
+  justify-content: center;
+  .footer__text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
